@@ -1,0 +1,10 @@
+name: pgsql-azure-test
+channels:
+  - https://jfrog.aaw.cloud.statcan.ca/artifactory/api/conda/conda-forge
+  - https://jfrog.aaw.cloud.statcan.ca/artifactory/api/conda/pytorch
+  - https://jfrog.aaw.cloud.statcan.ca/artifactory/api/conda/nvidia
+dependencies:
+  - python=3.11
+  - psycopg2=2.9
+  - geoalchemy2=0.13
+  - sqlalchemy=2.0
